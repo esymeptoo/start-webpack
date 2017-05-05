@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "go": "nodemon ./bin/www",
-    "development": "dora --plugins \"webpack,webpack-hmr\"  | nodemon ./bin/www"
+    "development": "dora --plugins \"webpack,webpack-hmr\"  | nodemon start.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",

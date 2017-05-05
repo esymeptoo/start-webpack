@@ -1,2 +1,4 @@
 node_modules/
-dist/js/
+dist/js/*
+.idea/
+.DS_store
